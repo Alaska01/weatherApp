@@ -1,3 +1,1 @@
-import DoISuportIt from './style.css'
-
-console.log(6);
+import DoISuportIt from './style.css';
