@@ -40,6 +40,10 @@ header input {
   transition: 0.2s ease-out;
 }
 
+.current .btn:hover {
+  cursor: pointer;
+}
+
 header input:focus {
   background-color: rgba(255, 255, 255, 0.6);
 }
