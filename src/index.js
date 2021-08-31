@@ -2,7 +2,7 @@
 import DoISuportIt from './style.css';
 
 const api = {
-  key: '02e1cd5bf4b503f7aaf9f2e799172b16',
+  mykey: '02e1cd5bf4b503f7aaf9f2e799172b16',
   base: 'http://api.openweathermap.org/data/2.5/',
 };
 const notificationElement = document.querySelector('.notification');
@@ -29,7 +29,7 @@ function setQuery(evt) {
 }
 
 function getResults(query) {
-  fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+  fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.mykey}`)
     .then((weather) => weather.json()).then(displayResults);
 }
 
