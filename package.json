@@ -2,7 +2,7 @@
   "name": "weather_app",
   "version": "1.0.0",
   "description": "- Initial readme for weather app - The readme will be modified later on the feature branch after completion of app. - A detail readme would be added later.",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",

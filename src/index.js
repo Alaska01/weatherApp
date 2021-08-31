@@ -9,7 +9,7 @@ const notificationElement = document.querySelector('.notification');
 const btnEl = document.querySelector('.btn');
 const btnUnitValue = document.querySelector('.btn p .toggle');
 const tempChange = document.querySelector('.btn p .change');
-const tempretureC = document.querySelector('.current temp');
+// const tempretureC = document.querySelector('.current temp');
 let temperatureC = 15;
 
 const searchbox = document.querySelector('.search-box');
