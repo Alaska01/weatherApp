@@ -10,17 +10,16 @@ const btnEl = document.querySelector('.btn');
 const btnUnitValue = document.querySelector('.btn p .toggle');
 const tempChange = document.querySelector('.btn p .change');
 const tempretureC = document.querySelector('.current temp');
-const temperatureC = 15;
+let temperatureC = 15;
 
 const searchbox = document.querySelector('.search-box');
+/* eslint-disable no-use-before-define */
 searchbox.addEventListener('keypress', setQuery);
 function setQuery(evt) {
-    
   if (evt.keyCode === 13) {
     if (searchbox.value !== '') {
       notificationElement.style.display = 'none';
       getResults(searchbox.value);
-      console.log(searchbox.value);
     } else {
       notificationElement.style.display = 'block';
       notificationElement.innerHTML = '<p>City Location cannot be empty</p>';
@@ -31,9 +30,7 @@ function setQuery(evt) {
 
 function getResults(query) {
   fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
-    .then((weather) => {
-      return weather.json();
-    }).then(displayResults);
+    .then((weather) => weather.json()).then(displayResults);
 }
 
 function displayResults(weather) {
