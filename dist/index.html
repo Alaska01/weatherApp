@@ -9,6 +9,29 @@
     <title>The Weather App</title>
 <script defer src="main.js"></script></head>
 <body>
-    Hello Weather App
-</body>
+    <div class="notification"> </div>
+    <div class='app-wrap'>
+      <p class='instruction'>Enter City Name and Hit Enter on the Keyboard to Search</p>
+        <header>
+          
+          <input type='text' auto-complete='off' class='search-box'placeholder='Search city or country'/>
+        </header>
+        <main>
+          <section class='location'>
+            <div class='city'>Gboko, NG</div>
+            <div class='date'>Sunday 29 August 2021</div>
+          </section>
+          <div class='current'>
+            <div class="temp">15<span>°C</span></div>
+            <div class='weather'>Sunny</div>
+            <div class='hi-low'>13°C /15°C</div>
+          </div>
+          
+          <button class='btn'>
+            <p>Toggle Between °C and F </p>
+          <p><span class='change'>-</span> <span class="toggle">° C</span></p>
+        </button>
+        </main>
+      </div>
+  </body>
 </html>
