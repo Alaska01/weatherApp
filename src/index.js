@@ -3,7 +3,7 @@ import DoISuportIt from './style.css';
 
 const api = {
   mykey: '02e1cd5bf4b503f7aaf9f2e799172b16',
-  base: 'http://api.openweathermap.org/data/2.5/',
+  base: 'https://api.openweathermap.org/data/2.5/',
 };
 const notificationElement = document.querySelector('.notification');
 const btnEl = document.querySelector('.btn');
