@@ -72,10 +72,10 @@ searchbox.addEventListener('keypress', setQuery);
 
 btnEl.addEventListener('click', () => {
   document.querySelector('.btn');
-  temperatureF = ((temperatureC) * (9 / 5)) + 32;
+  temperatureF = Math.round((temperatureC) * (9 / 5)) + 32;
   const tempHold = document.querySelector('.temp');
   if (tempHold.innerText === `${temperatureC} °C`) {
-    tempHold.innerText = `${((temperatureC) * (9 / 5)) + 32} F`;
+    tempHold.innerText = `${Math.round((temperatureC) * (9 / 5)) + 32} F`;
   } else if ((tempHold.innerText === `${temperatureF} F`)) {
     tempHold.innerText = `${temperatureC} °C`;
   }
