@@ -25,7 +25,7 @@ To get a copy up and running follow these simple steps:-
 
 
 ### Live Demo
-- <a href="https://aye-weather.netlify.app/">Click here</div>
+- <a href="https://aye-weatherapp.netlify.app/">Click here</div>
 
 
 ## Author
