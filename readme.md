@@ -1,6 +1,6 @@
 # WEATHER APP
 
-This project is a simple weather app that shows the weather report of a chosen city in any part of the world. A user can enter the name of a city and see the weather conditions.
+This project is a simple weather app that shows the weather report of a chosen city in any part of the world. A user can enter the name of a city and see the weather conditions. To toggle between C and F, click on the displayed temperature.
 
 ![screenshot](./screenshot.png)
 
