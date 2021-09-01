@@ -5,7 +5,7 @@ const api = {
   base: 'https://api.openweathermap.org/data/2.5/',
 };
 const notificationElement = document.querySelector('.notification');
-const btnEl = document.querySelector('.btn');
+const btnEl = document.querySelector('.btn-button');
 let temperatureC = 15;
 let temperatureF;
 const searchbox = document.querySelector('.search-box');

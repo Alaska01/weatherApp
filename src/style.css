@@ -48,11 +48,11 @@ header input:focus {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.instruction-temp {
+.btn-button {
   font-size: 20px;
   font-weight: 500;
-  color: white;
-  padding-bottom: 10px;
+  color: green;
+  padding: 10px;
 }
 
 main {
@@ -69,7 +69,7 @@ button {
   text-align: center;
   font-weight: 500;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .notification {
