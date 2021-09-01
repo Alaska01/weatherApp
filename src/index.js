@@ -77,6 +77,8 @@ btnEl.addEventListener('click', () => {
   if (tempHold.innerText === `${temperatureC} °C`) {
     tempHold.innerText = `${Math.round((temperatureC) * (9 / 5)) + 32} F`;
   } else if ((tempHold.innerText === `${temperatureF} F`)) {
+    tempHold.innerText = `${temperatureC + 273} °K`;
+  } else if ((tempHold.innerText === `${temperatureC + 273} °K`)) {
     tempHold.innerText = `${temperatureC} °C`;
   }
 });
