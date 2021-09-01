@@ -70,6 +70,7 @@ button {
   font-weight: 500;
   font-size: 20px;
   border-radius: 20px;
+  border: none;
 }
 
 .notification {
