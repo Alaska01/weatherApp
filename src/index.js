@@ -82,3 +82,5 @@ btnEl.addEventListener('click', () => {
     tempHold.innerText = `${temperatureC} °C`;
   }
 });
+
+getResults('gboko'); // called to give a default city with current data
