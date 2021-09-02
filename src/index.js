@@ -83,4 +83,5 @@ btnEl.addEventListener('click', () => {
   }
 });
 
-getResults('gboko'); // called to give a default city with current data
+// called to give a default city with current data
+getResults('gboko');
